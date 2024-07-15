@@ -36,7 +36,7 @@ const Hero = () => {
 				</div>
 			</div>
 			<div>
-				<Image src="/hero-illustration.svg" alt="" />
+				<Image src="/hero-illustration.svg" alt="Illustration" width={661} height={716}/>
 			</div>
 		</section>
 	)

@@ -13,7 +13,7 @@ const Features = () => {
 			<div className='flex justify-between space-x-6'>
 				<div className='w-96'>
 					<div className='bg-secondary h-96 relative flex justify-center items-center border-b-0 border-2 border-accent'>
-						<Image src="/tracker.svg" alt="Tracker" className='absolute top-14 left-12'/>
+						<Image src="./tracker.svg" alt="Tracker" width={333} height={333} className='absolute top-14 left-12'/>
 					</div>
 					<div className='bg-primary px-10 py-10 space-y-6 border-2 border-accent z-30 relative'>
 						<h3 className='text-white text-3xl font-bebas font-bold uppercase'>your workout tracker</h3>
@@ -24,7 +24,7 @@ const Features = () => {
 				</div>
 				<div className='w-96'>
 					<div className='bg-secondary h-96 relative flex justify-center items-center border-b-0 border-2 border-accent'>
-						<Image src="/tracker.svg" alt="Tracker" className='absolute top-14 left-12'/>
+						<Image src="./workout.svg" alt="Weight" width={333} height={333} className='absolute top-14 left-12'/>
 					</div>
 					<div className='bg-primary px-10 py-10 space-y-6 border-2 border-accent z-10 relative'>
 						<h3 className='text-white text-3xl font-bebas font-bold uppercase'>find the best workoout</h3>
@@ -35,7 +35,7 @@ const Features = () => {
 				</div>
 				<div className='w-96'>
 					<div className='bg-secondary h-96 relative flex justify-center items-center border-b-0 border-2 border-accent'>
-						<Image src="/tracker.svg" alt="Tracker" className='absolute top-14 left-12'/>
+						<Image src="/goals.svg" alt="Workout" width={333} height={333} className='absolute top-14 left-12'/>
 					</div>
 					<div className='bg-primary px-10 py-10 space-y-6 border-2 border-accent z-30 relative'>
 						<h3 className='text-white text-3xl font-bebas font-bold uppercase'>set your own goals</h3>

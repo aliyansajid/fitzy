@@ -5,7 +5,7 @@ const Navbar = () => {
 	return (
 		<section className="py-7 border-b-2 border-accent">
 			<nav className="flex justify-between items-center mx-auto w-[1240px]">
-				<Image src="/logo.svg" alt="Logo" />
+				<Image src="./logo.svg" alt="Logo" width={100} height={34}/>
 
 				<ul className="flex space-x-12 text-white text-base font-inter font-semibold tracking-[-0.02]">
 					{navLinks.map((link) => (

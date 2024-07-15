@@ -16,7 +16,7 @@ const Program = () => {
 				<div className='border-2 border-accent px-8 py-8 space-y-8 w-1/3'>
 					<div className='flex space-x-8'>
 						<div>
-							<Image src="/muscle.jpg" alt="" className='w-28 h-28 object-cover'/>
+							<Image src="/muscle.jpg" alt="Muscle" width={640} height={408} className='w-28 h-28 object-cover'/>
 						</div>
 						<div className='space-y-2'>
 							<p className='text-text text-base font-inter leading-[1.7] tracking-[-0.02]'>
@@ -27,7 +27,7 @@ const Program = () => {
 							</h3>
 							<div className='flex space-x-8'>
 								<div className='flex space-x-2'>
-									<Image src="/ranking.svg" alt="Ranking" />
+									<Image src="/ranking.svg" alt="Ranking" width={24} height={25} />
 									<p className='text-text text-base font-inter leading-[1.7] tracking-[-0.02]'>
 										30 Days
 									</p>
@@ -49,7 +49,7 @@ const Program = () => {
 				<div className='border-2 border-accent px-8 py-8 space-y-8 w-1/3'>
 					<div className='flex space-x-8'>
 						<div>
-							<Image src="/running.jpg" alt="" className='w-28 h-28 object-cover'/>
+							<Image src="/running.jpg" alt="Running" width={640} height={427} className='w-28 h-28 object-cover'/>
 						</div>
 						<div className='space-y-2'>
 							<p className='text-text text-base font-inter leading-[1.7] tracking-[-0.02]'>
@@ -60,7 +60,7 @@ const Program = () => {
 							</h3>
 							<div className='flex space-x-8'>
 								<div className='flex space-x-2'>
-									<Image src="/ranking.svg" alt="Ranking" />
+									<Image src="/ranking.svg" alt="Ranking" width={24} height={25} />
 									<p className='text-text text-base font-inter leading-[1.7] tracking-[-0.02]'>
 										45 Days
 									</p>
@@ -82,7 +82,7 @@ const Program = () => {
 				<div className='border-2 border-accent px-8 py-8 space-y-8 w-1/3'>
 					<div className='flex space-x-8'>
 						<div>
-							<Image src="/leg.webp" alt="" className='w-28 h-28 object-cover'/>
+							<Image src="/leg.webp" alt="" width={1988} height={1328} className='w-28 h-28 object-cover'/>
 						</div>
 						<div className='space-y-2'>
 							<p className='text-text text-base font-inter leading-[1.7] tracking-[-0.02]'>
@@ -93,7 +93,7 @@ const Program = () => {
 							</h3>
 							<div className='flex space-x-8'>
 								<div className='flex space-x-2'>
-									<Image src="/ranking.svg" alt="Ranking" />
+									<Image src="/ranking.svg" alt="Ranking" width={24} height={25} />
 									<p className='text-text text-base font-inter leading-[1.7] tracking-[-0.02]'>
 										30 Days
 									</p>
