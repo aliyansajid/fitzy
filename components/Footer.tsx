@@ -1,11 +1,12 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Footer = () => {
 	return (
 		<section className='mx-auto w-[1240px] pt-14  border-t-2 border-accent'>
 			<div className='flex justify-between pb-14 border-b-2 border-accent'>
 				<div className='space-y-8'>
-					<img src="/logo.svg" alt="Logo" />
+					<Image src="/logo.svg" alt="Logo" />
 					<p className='text-white text-base font-inter leading-[1.2] tracking-[-0.02]'>
 						Be better every day, together stronger!
 					</p>

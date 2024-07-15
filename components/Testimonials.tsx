@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image'
 
 const Testimonials = () => {
 	return (
@@ -16,7 +17,7 @@ const Testimonials = () => {
 					<div className='space-y-2'>
 						<div className='flex justify-between items-start'>
 							<h3 className='text-white text-3xl font-bebas font-bold'>best program</h3>
-							<img src="/stars.svg" alt="Stars" />
+							<Image src="/stars.svg" alt="Stars" />
 						</div>
 						<div>
 							<p className='text-text text-base font-inter leading-[1.7] tracking-[-0.02]'>
@@ -32,7 +33,7 @@ const Testimonials = () => {
 					</div>
 					<div className='flex space-x-4'>
 						<div>
-							<img src="/person1.jpg" alt="Women in office" className="w-16 h-16 object-cover"/>
+							<Image src="/person1.jpg" alt="Women in office" className="w-16 h-16 object-cover"/>
 						</div>
 						<div>
 							<h3 className='text-white text-2xl font-bebas font-bold'>Dwayne Thus</h3>
@@ -44,7 +45,7 @@ const Testimonials = () => {
 					<div className='space-y-2'>
 						<div className='flex justify-between items-start'>
 							<h3 className='text-white text-3xl font-bebas font-bold'>Amazing!</h3>
-							<img src="/stars.svg" alt="Stars" />
+							<Image src="/stars.svg" alt="Stars" />
 						</div>
 						<div>
 							<p className='text-text text-base font-inter leading-[1.7] tracking-[-0.02]'>
@@ -60,7 +61,7 @@ const Testimonials = () => {
 					</div>
 					<div className='flex space-x-4'>
 						<div>
-							<img src="/person1.jpg" alt="Women in office" className="w-16 h-16 object-cover"/>
+							<Image src="/person1.jpg" alt="Women in office" className="w-16 h-16 object-cover"/>
 						</div>
 						<div>
 							<h3 className='text-white text-2xl font-bebas font-bold'>Dianna Florie</h3>
@@ -72,7 +73,7 @@ const Testimonials = () => {
 					<div className='space-y-2'>
 						<div className='flex justify-between items-start'>
 							<h3 className='text-white text-3xl font-bebas font-bold'>So good!</h3>
-							<img src="/stars.svg" alt="Stars" />
+							<Image src="/stars.svg" alt="Stars" />
 						</div>
 						<div>
 							<p className='text-text text-base font-inter leading-[1.7] tracking-[-0.02]'>
@@ -88,7 +89,7 @@ const Testimonials = () => {
 					</div>
 					<div className='flex space-x-4'>
 						<div>
-							<img src="/person1.jpg" alt="Women in office" className="w-16 h-16 object-cover"/>
+							<Image src="/person1.jpg" alt="Women in office" className="w-16 h-16 object-cover"/>
 						</div>
 						<div>
 							<h3 className='text-white text-2xl font-bebas font-bold'>Jhonny Dogs</h3>

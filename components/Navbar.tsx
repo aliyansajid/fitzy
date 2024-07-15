@@ -1,10 +1,11 @@
 import { navLinks } from "@/data";
+import Image from "next/image";
 
 const Navbar = () => {
 	return (
 		<section className="py-7 border-b-2 border-accent">
 			<nav className="flex justify-between items-center mx-auto w-[1240px]">
-				<img src="/logo.svg" alt="Logo" />
+				<Image src="/logo.svg" alt="Logo" />
 
 				<ul className="flex space-x-12 text-white text-base font-inter font-semibold tracking-[-0.02]">
 					{navLinks.map((link) => (

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Hero = () => {
@@ -35,7 +36,7 @@ const Hero = () => {
 				</div>
 			</div>
 			<div>
-				<img src="/hero-illustration.svg" alt="" />
+				<Image src="/hero-illustration.svg" alt="" />
 			</div>
 		</section>
 	)
