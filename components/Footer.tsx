@@ -3,10 +3,12 @@ import Image from 'next/image'
 
 const Footer = () => {
 	return (
-		<section className='mx-auto w-[1240px] pt-14  border-t-2 border-accent'>
-			<div className='flex justify-between pb-14 border-b-2 border-accent'>
+		<section className='mx-auto max-w-[1240px] pt-14 border-t-2 border-accent px-4 lg:px-0'>
+			<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 pb-14 border-b-2 border-accent'>
 				<div className='space-y-8'>
-					<Image src="/logo.svg" alt="Logo" width={100} height={34} />
+					<a href="/">
+						<Image src="/logo.svg" alt="Logo" width={100} height={34} />
+					</a>
 					<p className='text-white text-base font-inter leading-[1.2] tracking-[-0.02]'>
 						Be better every day, together stronger!
 					</p>
@@ -101,7 +103,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className='pt-4 pb-4'>
-				<p className='text-text text-sm font-inter leading-[1.2] tracking-[-0.02]'>
+				<p className='text-text text-sm font-inter leading-[1.2] tracking-[-0.02] text-center lg:text-left'>
 					© Aliyan Sajid. 2024. All rights reserved
 				</p>
 			</div>

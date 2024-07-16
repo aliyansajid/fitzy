@@ -1,6 +1,6 @@
 export const navLinks = [
 	{ name: "About", link: "#about" },
-	{ name: "App", link: "#app" },
-	{ name: "Community", link: "#community" },
+	{ name: "Program", link: "#program" },
+	{ name: "Testimonials", link: "#testimonials" },
 	{ name: "Blog", link: "#blog" }
 ]

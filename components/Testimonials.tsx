@@ -3,20 +3,21 @@ import Image from 'next/image'
 
 const Testimonials = () => {
 	return (
-		<section className='mx-auto w-[1240px] mt-36 mb-36 space-y-16'>
-			<div className='flex flex-col items-center space-y-12'>
-				<h2 className='text-white text-6xl font-bebas font-bold'>
+		<section className='mx-auto max-w-[1240px] mt-28 mb-28 md:mt-36 md:mb-36 space-y-14 md:space-y-16 px-4 lg:px-0' id='testimonials'>
+			<div className='flex flex-col items-center space-y-8 md:space-y-12 text-center md:text-left'>
+				<h2 className='text-white text-4xl md:text-6xl font-bebas font-bold'>
 					Let&apos;s see what they say after joining our program
 				</h2>
 				<p className='text-text text-base font-inter leading-[1.7] tracking-[-0.02]'>
-					Here you can see some success story after joining our workout program.
+					Here you can see some success stories after joining our workout program.
 				</p>
-			</div>			
-			<div className='flex space-x-8'>
-				<div className='border-2 border-accent px-8 py-8 space-y-8 w-2/5'>
+			</div>
+		
+			<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+				<div className='border-2 border-accent px-8 py-8 space-y-8'>
 					<div className='space-y-2'>
 						<div className='flex justify-between items-start'>
-							<h3 className='text-white text-3xl font-bebas font-bold'>best program</h3>
+							<h3 className='text-white text-3xl font-bebas font-bold'>Best Program</h3>
 							<Image src="/stars.svg" alt="Stars" width={152} height={24} />
 						</div>
 						<div>
@@ -33,7 +34,7 @@ const Testimonials = () => {
 					</div>
 					<div className='flex space-x-4'>
 						<div>
-							<Image src="/person1.jpg" alt="Women in office" width={640} height={960} className="w-16 h-16 object-cover"/>
+							<Image src="/person1.jpg" alt="Person" width={640} height={960} className="w-16 h-16 object-cover"/>
 						</div>
 						<div>
 							<h3 className='text-white text-2xl font-bebas font-bold'>Dwayne Thus</h3>
@@ -41,7 +42,7 @@ const Testimonials = () => {
 						</div>
 					</div>
 				</div>
-				<div className='border-2 border-accent px-8 py-8 space-y-8 w-2/5'>
+				<div className='border-2 border-accent px-8 py-8 space-y-8'>
 					<div className='space-y-2'>
 						<div className='flex justify-between items-start'>
 							<h3 className='text-white text-3xl font-bebas font-bold'>Amazing!</h3>
@@ -61,7 +62,7 @@ const Testimonials = () => {
 					</div>
 					<div className='flex space-x-4'>
 						<div>
-							<Image src="/person1.jpg" alt="Women in office" width={640} height={960} className="w-16 h-16 object-cover"/>
+							<Image src="/person1.jpg" alt="Person" width={640} height={960} className="w-16 h-16 object-cover"/>
 						</div>
 						<div>
 							<h3 className='text-white text-2xl font-bebas font-bold'>Dianna Florie</h3>
@@ -69,7 +70,7 @@ const Testimonials = () => {
 						</div>
 					</div>
 				</div>
-				<div className='border-2 border-accent px-8 py-8 space-y-8 w-2/5'>
+				<div className='border-2 border-accent px-8 py-8 space-y-8'>
 					<div className='space-y-2'>
 						<div className='flex justify-between items-start'>
 							<h3 className='text-white text-3xl font-bebas font-bold'>So good!</h3>
@@ -89,7 +90,7 @@ const Testimonials = () => {
 					</div>
 					<div className='flex space-x-4'>
 						<div>
-							<Image src="/person1.jpg" alt="Women in office" width={640} height={960} className="w-16 h-16 object-cover"/>
+							<Image src="/person1.jpg" alt="Person" width={640} height={960} className="w-16 h-16 object-cover"/>
 						</div>
 						<div>
 							<h3 className='text-white text-2xl font-bebas font-bold'>Jhonny Dogs</h3>
