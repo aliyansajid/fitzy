@@ -15,7 +15,8 @@ const Features = () => {
 			<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
 				<div className='w-full'>
 					<div className='bg-secondary h-96 relative flex justify-center items-center border-b-0 border-2 border-accent'>
-						<Image src="/tracker.svg" alt="Tracker" width={333} height={333} className='absolute top-14 left-12'/>
+						<Image src="/tracker.svg" alt="Tracker" width={333} height={333} className='absolute top-14 left-11
+						md:top-14 md:left-14'/>
 					</div>
 					<div className='bg-primary px-10 py-10 space-y-6 border-2 border-accent z-30 relative'>
 						<h3 className='text-white text-3xl font-bebas font-bold uppercase'>your workout tracker</h3>
@@ -26,7 +27,8 @@ const Features = () => {
 				</div>
 				<div className='w-full'>
 					<div className='bg-secondary h-96 relative flex justify-center items-center border-b-0 border-2 border-accent'>
-						<Image src="/workout.svg" alt="Weight" width={333} height={333} className='absolute top-14 left-12'/>
+						<Image src="/workout.svg" alt="Weight" width={333} height={333} className='absolute top-14 left-11
+						md:top-14 md:left-14'/>
 					</div>
 					<div className='bg-primary px-10 py-10 space-y-6 border-2 border-accent z-10 relative'>
 						<h3 className='text-white text-3xl font-bebas font-bold uppercase'>find the best workout</h3>
@@ -37,7 +39,8 @@ const Features = () => {
 				</div>
 				<div className='w-full'>
 					<div className='bg-secondary h-96 relative flex justify-center items-center border-b-0 border-2 border-accent'>
-						<Image src="/goals.svg" alt="Workout" width={333} height={333} className='absolute top-14 left-12'/>
+						<Image src="/goals.svg" alt="Workout" width={333} height={333} className='absolute top-14 left-11
+						md:top-14 md:left-14'/>
 					</div>
 					<div className='bg-primary px-10 py-10 space-y-6 border-2 border-accent z-30 relative'>
 						<h3 className='text-white text-3xl font-bebas font-bold uppercase'>set your own goals</h3>
